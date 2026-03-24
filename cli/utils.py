@@ -158,6 +158,7 @@ def select_shallow_thinking_agent(provider) -> str:
         "openrouter": [
             ("NVIDIA Nemotron 3 Nano 30B (free)", "nvidia/nemotron-3-nano-30b-a3b:free"),
             ("Z.AI GLM 4.5 Air (free)", "z-ai/glm-4.5-air:free"),
+            ("Minimax M2.1", "minimax/minimax-m2.1"),
         ],
         "ollama": [
             ("Qwen3:latest (8B, local)", "qwen3:latest"),
